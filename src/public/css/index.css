@@ -1,0 +1,147 @@
+/* フォーム入力画面のcss */
+
+.contact-form__content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Contactの装飾 */
+.contact-form__heading{
+    font-family: Inika;
+    color: #8B7969;
+    font-size: 35px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form__group {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    /* display: flex;
+    flex-direction: row; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+/* labelの共通項 */
+.form__group-title{
+    font-size: 20px;
+    font-family: Inika;
+}
+
+/* 項目文字の装飾 */
+.form__label--item{
+    color: #8B7969;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* ※の装飾 */
+.form__label--required{
+    color: #FFA5A5;
+}
+
+.last_name {
+    padding: 0px 40px 0px 0px;
+}
+
+/* radioボタンの装飾 */
+.check{
+    accent-color: #8B7969;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 10px;
+}
+
+/* 入力フォームの装飾 */
+input {
+    background-color: #F4F4F4;
+    border: none;
+    width: 300px;
+    height: 38px;
+    padding: 10px;
+}
+
+.tell {
+    width: 150px;
+    height: 38px;
+    text-align: center;
+    /* margin: auto 10px; */
+}
+
+.radio {
+    padding: 10px;
+}
+
+.first_name{
+    width: 230px;
+    height: 38px;
+}
+
+.last_name {
+    width: 230px;
+    height: 38px;
+    margin: 0 0 0 35px ;
+}
+
+.email{
+    width: 500px;
+    height: 38px;
+}
+
+.address{
+    width: 500px;
+    height: 38px;
+}
+
+.building {
+    width: 500px;
+    height: 38px;
+}
+
+select{
+    background-color: #F4F4F4;
+    border: none;
+    width: 500px;
+    height: 38px;
+    padding: 10px;
+}
+
+textarea {
+    background-color: #F4F4F4;
+    border: none;
+    width: 500px;
+    height: 130px;
+    padding: 10px;
+}
+
+/* 入力例の装飾 */
+::placeholder,select{
+    color: #BEB1A6;
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+/* 送信ボタンの装飾 */
+.form__button {
+    display: flex;
+    justify-content: center;
+}
+
+.form__button-submit {
+    padding: 10px 40px 10px 40px;
+    border: none;
+    background: #82756A;
+    color: #fff;
+    font-size: 20px;
+    width: 160px;
+    height: 46px;
+    bottom: 10px;
+}
+
+.form__error{
+    color: #FFA5A5;
+}

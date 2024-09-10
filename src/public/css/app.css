@@ -1,0 +1,15 @@
+/* 共通のcss */
+
+.header {
+    margin: 20px;
+    border-bottom: 1px solid #F0DFDE;
+}
+
+.header__logo {
+    color: #8B7969;
+    font-family: Inika;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
